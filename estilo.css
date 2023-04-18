@@ -134,3 +134,74 @@ ul, li, strong {
     list-style-type: none;
     font-size: 18px;
 }
+
+.treino {
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+.nome {
+    text-align: center;
+    font-size: 50px;
+}
+
+.capa {
+    width: 500px;
+    max-height: 100%;  
+    border-radius: 15px;
+}
+
+.principal p {
+    text-align: center;
+    justify-content: center;
+    margin-top: 1.3em;
+    margin-left: 1.3em;
+    margin-right: 1.3em;
+    display: block;  
+}
+
+.espec {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    text-align: center;
+    justify-content: center;
+    padding-top: 0.5em; 
+  
+}
+
+.espec i {
+    color: red;
+    margin: 22px;
+}
+
+.mais {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.espec .mais h6 {
+    font-size: 25px;
+}
+
+.espec .mais p {
+    font-size: 16px;
+}
+
+.moda a {
+    text-decoration: none;
+    color: red;
+    text-transform:capitalize;
+    font-size: 19px;
+    margin-top: 10px;
+}
+
