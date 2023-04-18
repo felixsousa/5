@@ -1,0 +1,136 @@
+* {
+    font-family: 'Anuphan', sans-serif;
+    font-size: 22px;
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mynavbar {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.mynavbar img {
+    width: 100px;
+    margin-top: 5px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: red;
+}
+
+nav ul {
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-inline-end: 40px;
+}
+
+footer, span {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+li {
+    font-size: 25px;  
+}
+
+.carousel-inner > .carousel-item > img {
+    width: 100%;
+    height: 400px; 
+    object-fit: cover;
+  }
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+main .somos {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 20px;
+}
+
+main .somos p {
+    font-size: 16px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 30px;
+    color: red;
+
+}
+
+h5 {
+    color: black;
+}
+
+main .moda {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+main .moda .modalidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+
+}
+
+main .moda .modalidades .temos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 40px
+}
+
+main .moda .modalidades .temos img {
+    height: 300px;
+    border-radius: 15px;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+main .moda .modalidades .temos img:hover {
+box-shadow: 0px 0px 6px #00e0ff;
+}
+
+.horario {
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+ul, li, strong {
+    list-style-type: none;
+    font-size: 18px;
+}
